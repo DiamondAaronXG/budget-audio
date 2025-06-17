@@ -1,1 +1,15 @@
-.
+nav {
+ padding: 1.5rem 2rem;
+ background-color: #222831;
+ color: #fff;
+}
+
+.nav-mobile {
+ display: none;
+}
+
+#check:checked ~ .nav-mobile {
+ display: block;
+}
+
+
