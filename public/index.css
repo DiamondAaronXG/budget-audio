@@ -1,11 +1,13 @@
 nav {
- padding: 1.5rem 2rem;
- background-color: #222831;
- color: #fff;
+  padding: 1.5rem 2rem;
+  background-color: #222831;
+  color: #fff;
 }
 
-.nav-mobile {
- display: none;
+.checkbtn{
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
 }
 
 #check{
@@ -25,4 +27,14 @@ nav {
   width: 200px;
 }
 
+.nav-mobile a {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  display: block;
+}
 
+hr {
+  background-color: #393e46;
+  padding: 1px;
+  border: none;
+}
