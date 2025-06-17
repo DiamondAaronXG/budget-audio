@@ -8,8 +8,21 @@ nav {
  display: none;
 }
 
-#check:checked ~ .nav-mobile {
- display: block;
+#check{
+  display: none;
+}
+
+#check:checked ~ .nav-mobile{display: block;}
+
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 4.5rem;
+  left: 0;
+  overflow: hidden;
+  background: #222831;
+  z-index: 1;
+  width: 200px;
 }
 
 
